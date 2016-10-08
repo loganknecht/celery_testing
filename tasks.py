@@ -6,7 +6,7 @@ from celery import Celery
 # Custom Libraries
 # N/A
 
-app = Celery('tasks', broker='amqp://guest@localhost//')
+app = Celery("tasks", backend="rpc://", broker="amqp://guest@localhost//")
 
 
 @app.task
