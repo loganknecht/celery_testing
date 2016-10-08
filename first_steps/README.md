@@ -38,7 +38,7 @@
         - Sends a request to RabbitMQ that add it to its queue
         - The worker then grabs the request from the queue, performs the processing
         - The worker return the result message to RabbitMQ
-8: Veriy worker ran
+8. Veriy worker ran
     - You should be able to view the celery worker's log output to see that it ran
         ```
         [2016-10-07 17:40:29,831: WARNING/MainProcess] /usr/local/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
