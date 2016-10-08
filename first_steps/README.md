@@ -1,12 +1,12 @@
 # First-Steps on Mac
 
 
-1: install python
-2: Install celery 
+1. install python
+2. Install celery 
     - `pip install celery`
-3: Install RabbitMQ
+3. Install RabbitMQ
     - `brew install rabbitmq-server`
-4: Run RabbitMQ
+4. Run RabbitMQ
     - `rabbitmq-server`
         - This will start the RabbitMQ instance running
         - https://www.rabbitmq.com/man/rabbitmq-server.1.man.html
@@ -15,10 +15,10 @@
     - `rabbitmqctl`
         - https://www.rabbitmq.com/man/rabbitmqctl.1.man.html
         - Used to control rabbitmq
-5: Create the code
+5. Create the code
     - See tasks.py
         - Read comments
-6: Run celery using the code
+6. Run celery using the code
     - `celery -A tasks worker --loglevel=info`
         - `-A`
             - APP, --app=APP     app instance to use (e.g. module.attr_name)
@@ -28,7 +28,7 @@
         - `--loglevel=info`
             - The log level
         - This creates the worker instance to process messages that RabbitMQ receives.
-7: Now run the code
+7. Now run the code
     - `python`
         - This is to execute the code using RabbitMQ
     - `from tasks import add`
