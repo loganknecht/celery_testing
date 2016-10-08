@@ -1,6 +1,7 @@
 # First-Steps on Mac
 
-
+0. Read Directions
+    - http://docs.celeryproject.org/en/latest/getting-started/first-steps-with-celery.html
 1. install python
 2. Install celery 
     - `pip install celery`
