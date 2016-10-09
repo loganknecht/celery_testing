@@ -5,7 +5,7 @@ This is an attempt to familiarize myself with celery
 ## Installation
 
 Brew install RabbitMQ for message queue service here:
-https://www.rabbitmq.com/install-homebrew
+https://www.rabbitmq.com/install-homebrew.html
 
 
 ## Tutorial
